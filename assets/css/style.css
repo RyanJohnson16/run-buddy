@@ -82,14 +82,22 @@ section {
 
 /* Hero Style Form */
 .hero-form {
+    border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
-    position: relative;
-    bottom: 0px;
-    right: 0px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
